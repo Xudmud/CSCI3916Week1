@@ -1,0 +1,44 @@
+Request:
+Content-Type : application/x-www-form-urlencoded
+The type of content being sent, in this case a pre-filled form via an encoded URL
+
+Response:
+Expires : Mon, 04 Feb 2019 05:17:54 GMT
+The date and time when the response should be considered "stale" and should be refreshed.
+
+Date : Mon, 04 Feb 2019 05:17:54 GMT
+The date and time when the request was made.
+
+Cache-Control : private, max-age=0, must-revalidate, no-transform
+The settings for how the cache should be handled.
+
+ETag : (not shown)
+Identifier for the specific version of the resource
+
+Vary : Origin
+Vary : X-Origin
+Tells how to match future response headers and whether a cached response can be used.
+
+Content-Type : application/json; charset=UTF-8
+The type of content and charset for that content
+
+Content-Encoding : gzip
+The type of encoding on the data
+
+X-Content-Type-Options : nosniff
+Used to prevent Internet Explorer from MIME-sniffing a response away from the content-type
+
+X-Frame-Options : SAMEORIGIN
+Clickjacking protection, don't render if there is an origin mismatch in a frame.
+
+X-XSS-Protection : 1; mode=block
+Cross-site scripting filter
+
+Server : GSE
+A name for the server
+
+Alt-Svc : quic=":443"; ma=2592000; v="44,43,39"
+Custom header
+
+Transfer-Encoding : chunked
+Form of encoding used to safely transfer the entity to the user.
